@@ -1,0 +1,75 @@
+/*
+Theme Name: ismail-theme
+Theme URI: https://wordpress.org/themes
+Author: ismail
+Author URI: https://wordpress.org/
+Description: HTML to wordpress
+Tags: ismail-theme
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ismail-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#footer .footer-links ul li::before {
+  content: "\ea50";
+  font-family: "boxicons";
+  padding-right: 2px;
+  color: #ffc451;
+  font-size: 18px;
+  line-height: 1;
+}
+.footer-newsletter p {
+  margin: 0;
+}
+/* footer newsletter */
+#footor .footer-top .footer-newsletter .form-fields-wrap {
+  position: relative;
+  margin-top: 10px;
+}
+#footor .footer-top .footer-newsletter form {
+  /* background: transparent;
+  margin-top: 0; */
+  /* ===> */
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  width: calc(100% - 100px);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  top: 9px;
+  width: 93px;
+  height: 50px;
+  padding: 10px;
+  background: #ffc451;
+  border-radius: 10px;
+  color: #151515;
+  transition: 0.4s;
+  /* ===> */
+  /* top: 9px;
+  width: 112px;
+  height: 42px;
+  padding: 10px; */
+}
+/* ===== */
+
+/* contact us  */
+.php-email-form input[type="submit"] {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
